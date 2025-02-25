@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<section>
+<h1 id="title">FeedBack</h1>
+
+<p id="description">We value your opinion! Please take a moment to provide us with your feedback. Whether you have a suggestion, a comment, or any concerns, your input helps us improve our services. Your feedback is important to us, and we appreciate you taking the time to share your thoughts.</p>
+
+</section>
+
+<form id="survey-form">
+  <fieldset>
+    <legend>Secret information</legend>
+  <label id="name-label">Name: <input id="name" type="text" required placeholder="Write your name..."></label>
+
+  <label id="email-label">Email:<input id="email" type="email" required placeholder="Yor email or your mom..."> </label>
+</fieldset>
+
+<fieldset>
+  <legend>Rate us</legend>
+  <label id="number-label" text>Rating:<input id="number"type="number" min="0" max="10" placeholder="rating of our efforts...">
+  </label>
+  </fieldset>
+
+<fieldset>
+  <legend>Tell about yourself</legend>
+  <select id="dropdown">
+    <option value="Man">Man</option>
+    <option value="Women">Women</option>
+  </select>
+
+  <label for="Has children"></label>
+  <input type="radio" value="Yes" name="children id="Has children"> Has children 
+    
+    <label for="Does not have children"></label><input type="radio" value="No" name="children id="Does not have children">Does not have children
+
+<label>Have animals: </label><input type="checkbox" value="Yes">
+
+<label>Do not have animals </label><input type="checkbox" value="No">
+</fieldset>
+
+
+<fieldset>
+<label> Write about your opinion: </label><textarea id="comments" name="comments" rows="6" cols="30" placeholder="Write your comments here..."></textarea>
+</fieldset>
+
+
+
+
+
+<button type="submit" id="submit">Submit</button>
+</form>
+
+
+
+
+
+</body>
+
+
+
+
+</html>
